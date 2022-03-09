@@ -1,0 +1,109 @@
+body {
+    font-family:"outfit";
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    width:310px;
+    box-shadow: 0px 20px 40px -4px hsl(217, 54%, 11%), 0px 34px 5px 15px hsl(208deg, 79%, 8%);
+}
+.equilibrium {
+    border-radius: 10px;
+    width: 100%;
+}
+.olho-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.olho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+.olho:hover {
+    display: flex;
+    background-color: rgba(0, 255, 247, .3);
+    opacity: 1;
+    transition: 0.5s;
+}
+h1 {
+    font-weight: 600;
+    color:#ffffff;
+    font-size: 23px;
+    margin-right: auto;
+}
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+.description {
+    line-height: 26.6px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 7px;
+}
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: -webkit-fill-available;
+    gap: 20px;
+    padding: 15px 0px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+.rosto-img{
+    width: 37px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+p {
+    color:hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 100;
+}
+.eth-text {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-right: auto;
+}
+.attribution {
+    font-size: 11px;
+    text-align:end;
+    display: flex;
+    align-items: flex-end;
+    height: 10%;
+    color: white;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+em {
+    color:#ffffff;
+}
+em:hover{
+    color: hsl(178, 100%, 50%);
+}
